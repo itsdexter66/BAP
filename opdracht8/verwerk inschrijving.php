@@ -5,7 +5,7 @@ $tussenvoegsel = $_POST['tussenvoegsel'];
 $achternaam = $_POST['achternaam'];
 $emailadres = $_POST['emailadres'];
 
-$dbc = mysqli_connect('localhost', 'root','','24191_db') or die('error no connection');
+$dbc = mysqli_connect('localhost', 'root','','24831_db') or die('error no connection');
 
 $query = "INSERT INTO nieuwsbrief VALUES (0,'$voornaam','$tussenvoegsel','$achternaam','$emailadres')";
 
